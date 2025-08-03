@@ -6,6 +6,7 @@
 - `SimulateMultipleUsers`方法使用`Task.WhenAll`模拟多个用户并发购书。
 
 模拟用户购书清单如下：
+
 用户1：C#入门 x2
 用户2：C#入门 x3
 用户3：异步编程 x1
