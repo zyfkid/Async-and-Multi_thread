@@ -4,6 +4,7 @@
 - `UpdateInventoryAsync`方法必须使用 lock 保证库存更新的线程安全.
 - `CheckoutAsync`方法要异步调用`UpdateInventoryAsync`.
 - `SimulateMultipleUsers`方法使用`Task.WhenAll`模拟多个用户并发购书。
+
 模拟用户购书清单如下：
 用户1：C#入门 x2
 用户2：C#入门 x3
